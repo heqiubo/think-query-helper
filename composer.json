@@ -1,0 +1,25 @@
+{
+  "name": "heqiubo/think-query-helper",
+  "description": "query-helper package for thinkphp5.1",
+  "homepage": "https://github.com/heqiubo/think-query-helper",
+  "license": "Apache-2.0",
+  "minimum-stability": "stable",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "qb",
+      "email": "344055687@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/heqiubo/think-query-helper/issues"
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\query_helper\\": "src/"
+    }
+  }
+}
