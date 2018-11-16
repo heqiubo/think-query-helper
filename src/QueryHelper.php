@@ -59,7 +59,7 @@ class QueryHelper
      */
     protected function hasParam($name)
     {
-        return !empty($this->params[$name]) || $this->params[$name] === '0';
+        return array_key_exists($name, $this->params);
     }
 
     /**
