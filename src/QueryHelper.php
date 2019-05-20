@@ -209,7 +209,7 @@ class QueryHelper
 
         if ($this->hasParam($reqStartField) && $this->hasParam($reqEndField)) {
             $this->queryObj->whereTime($name, 'between', [
-                strtotime($startTime) - 3600 * 24, strtotime($endTime) + 3600 * 24
+                strtotime($startTime), strtotime($endTime) + 3600 * 24
             ]);
         } else {
             if ($this::hasParam($reqEndField)) {
